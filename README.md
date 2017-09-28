@@ -2,10 +2,10 @@ QuantTradeStrategy
 ====================
 
 4种常用日内CTA策略介绍及实现<br>
-1.1 Dual Thrust策略<br>
-1.2 R-Breaker策略<br>
+1.1 [Dual Thrust策略](/strategy/Dual-Thrust.md)<br>
+1.2 [R-Breaker策略](/strategy/R-Breaker.md)<br>
 1.3 菲阿里四价策略<br>
-1.4 空中花园策略  [详见](http://futures.hexun.com/2017-01-19/187804862.html 'flavor')
+1.4 空中花园策略  [出处](http://futures.hexun.com/2017-01-19/187804862.html 'flavor')
 
 
 在此模型中，Ks与Kx的两个参数值可以阶段性地动态调整。当Ks＞Kx时，空头相对容易被触发，反之亦然。<br>

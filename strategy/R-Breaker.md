@@ -3,4 +3,4 @@
 a、若日内最高价超过观察卖出价后，又下跌跌破反转卖出价，则采取反转策略，平仓多单并开仓做空；若日内最低价超过观察买入价后，又上涨突破反转买入价，则采取反转策略，平仓空单并开仓做多。<br>
 b、若空仓，当价格上涨超过突破买入价时，采取趋势策略开仓做多；反之，当最新价格下跌超过突破卖出价时，则开仓做空。<br>
 总体来看，R-Breaker策略选定的6个价位，可以认为是经典技术分析中所采用的“阻力位”和“支撑位”。根据这6个价位进行相应的开平仓，既可以追踪趋势，又可以判断反转。而3个模型参数则可以改变6个触发价位之间的距离，<br>优化模型效果。<br>
-<div align=center> <img src="https://github.com/BigNewbiePlus/QuantTradeStrategy/blob/master/images/R-Breaker.jpg"/> </div>
+<div align=center> <img src="/images/R-Breaker.jpg"/> </div>
