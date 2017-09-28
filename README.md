@@ -6,6 +6,14 @@ QuantTradeStrategy
 1.2 [R-Breaker策略](/strategy/R-Breaker.md)<br>
 1.3 [菲阿里四价策略](/strategy/菲阿里四价策略.md)<br>
 1.4 [空中花园策略](/strategy/空中花园策略.md)  <br>
+1.5 [横盘突破](/strategy/横盘突破策略.md)<br>
+1.6 [基于固定百分比幅度的转向交易](/strategy/基于固定百分比幅度的转向交易策略.md)<br>
+1.7 [HANS123](/strategy/HANS123策略.md)<br>
+1.8 [日均ATR波动性突破](/strategy/日均ATR波动性突破策略.md)<br>
+1.9 [ORB失败突破](/strategy/ORB失败突破策略.md)<br>
+1.10[分时均价黄线](/strategy/分时均价黄线策略.md)<br>
+1.11[日内ATR波动性突破](/strategy/日内ATR波动性突破策略.md)<br>
+
 
 # 2:商品期货中长线量化交易策略 [出处](http://www.hao123.com/mid?key=pZwYTjCEQvdYQMPEpZR8mvqVQ1csnHTsnHcLQv3YP1bvPjczrHD8Tv9YUys&from=tuijian&pn=1)
 商品期货市场中长线量化策略中，比较经常被采用的策略模型，大致包括均线策略、通道突破策略、动量策略和Aberration策略四类。<br>
@@ -13,6 +21,12 @@ QuantTradeStrategy
 2.2:[动量策略](/strategy/动量策略.md)<br>
 2.3:[长区间突破策略](/strategy/长区间突破策略.md)<br>
 2.4:[Aberration策略](/strategy/Aberration策略.md)<br>  [各类策略的简单优劣对比](/comments/各类策略的简单优劣对比.md)<br>
+2.5:[Andromeda](/strategy/Andromeda策略.md) <br>
+2.6:[Checkmate](/strategy/Checkmate策略.md)<br>
+2.7:[Golden SX](/strategy/GoldenSX策略.md)<br>
+2.8:[Ready-Set-Go](/strategy/Ready-Set-Go策略.md)<br>
+2.9:[STC S&P Daytrade trading system](/strategy/STC-S_P-Daytrade策略.md)
+
 
 # 3:商品期货套利策略 [出处](http://blog.sina.com.cn/s/blog_95b4e6c90102wb8i.html)
 套利策略一般包括期现套利、跨期套利、跨市场套利、跨品种套利等。<br>
@@ -21,6 +35,12 @@ QuantTradeStrategy
 3.1: [跨期套利](/strategy/跨期套利.md)<br>
 3.2: [跨市场套利](/strategy/跨市场套利.md)<br>
 3.3: [跨品种套利](/strategy/跨品种套利.md)<br>
+
+# 4:量化对冲策略
+量化的字面含义其实表明是对收益和风险进行数量化建模管理。通常是结合“对冲”俩字一起使用。量化对冲策略即同时利用量化手段和对冲技巧的投资策略。经典的量化对冲策略有市场中性策略、事件驱动套利策略三种。
+4.1: ![主要策略图示](/images/国内量化对冲主要策略.jpg)
+4.2: [市场中性策略](/strategy/市场中性策略.md)
+4.3: [套利策略](/strategy/套利策略.md)
 
 ## 个人策略
 * [价值投资 -- 成长股内在价值投资](https://www.joinquant.com/post/541)
@@ -40,6 +60,37 @@ QuantTradeStrategy
 * [双线RSI择时轮动策略](https://www.joinquant.com/post/213)
 * [双因子加指标模型](https://www.joinquant.com/post/399)
 * [线性回归的趋势跟踪系统](https://www.joinquant.com/post/212)
+* [量化投资学习——行业龙头股均线（收益率填坑优化版）](https://www.joinquant.com/post/258)
+* [多均线策略](https://www.joinquant.com/post/243)
+* [简单的多均线择时策略](https://www.joinquant.com/post/570)
+* [【钟摆理论1】量化模型实现](https://www.joinquant.com/post/287)
+* [【钟摆理论2】——价值中枢](https://www.joinquant.com/post/457)
+* [【钟摆系列3】——单股票价值中枢动态调仓](https://www.joinquant.com/post/477)
+* [【钟摆系列4】多股票市值中枢动态平衡](https://www.joinquant.com/post/505)
+* [配对交易 - 以回测期间两股的股价比值的均值作为价值中枢](https://www.joinquant.com/post/242)
+* [在配对交易的基础上增加了协整判断（每隔一段时间更新股票组合）](https://www.joinquant.com/post/266)
+* [银行股配对交易](https://www.joinquant.com/post/227)
+* [银行股低PB轮换策略](https://www.joinquant.com/post/152)
+* [银行pe、pb轮动策略](https://www.joinquant.com/post/587)
+* [指数轮动模型（更新模型2016年2月13日）](https://www.joinquant.com/post/451)
+* [二八轮动2.0](https://www.joinquant.com/post/512)
+* [动量度量-ETF轮动](https://www.joinquant.com/post/464)
+* [基于卡尔曼滤波器的银行搬砖](https://www.joinquant.com/post/391)
+* [Markowitz with regularization term](https://www.joinquant.com/post/501)
+* [Adaptive Asset Allocation](https://www.joinquant.com/post/388)
+* [带收益预测的Markowitz动态平衡策略](https://www.joinquant.com/post/389)
+* [Classical Markowitz portfolio optimization](https://www.joinquant.com/post/353)
+* [A股市场大数据挖掘之1：股份行动态再平衡](https://xueqiu.com/3727797950/58626491)
+* [单只股票动态平衡](https://www.joinquant.com/post/67)
+* [多只股票动态平衡](https://www.joinquant.com/post/68)
+
+# 热点分析策略
+* [赶上牛市打新股策略好的不要不要的](https://www.joinquant.com/post/265)
+* [举牌概念买买买！](https://www.joinquant.com/post/322)
+* [统计了一下熔断的历史数据](https://www.joinquant.com/post/432)
+* [春节抢红包攻略，我已经开抢了，你随意~~](https://www.joinquant.com/post/488)
+* [如果明天大盘开始反弹，你选哪只股票？](https://www.joinquant.com/post/563)
+* [我发现了一个惊人的秘密： 月底容易暴跌，特别是25日以后！](https://www.joinquant.com/post/575)
 
 ## 经典策略
 * [量化投资学习【常见策略】1-羊驼1（每天持有收益率前n的股票）](https://www.joinquant.com/post/26)
@@ -54,6 +105,16 @@ QuantTradeStrategy
 * [【滚动复利策略】的量化实现-改进v1.0](https://www.joinquant.com/post/500)
 * [神奇的鳄鱼法则交易系统——避开盘整，抢占趋势先机](https://www.joinquant.com/post/595)
 * [【回测来啦】——鳄鱼法则交易系统，15年至今114%](https://www.joinquant.com/post/669)
+* [金叉死叉策略](https://community.bigquant.com/t/%E9%87%8F%E5%8C%96%E5%AD%A6%E5%A0%82-%E7%AD%96%E7%95%A5%E5%BC%80%E5%8F%91%E9%87%91%E5%8F%89%E6%AD%BB%E5%8F%89%E7%AD%96%E7%95%A5/249)
+* [海龟策略](https://community.bigquant.com/t/%E9%87%8F%E5%8C%96%E5%AD%A6%E5%A0%82-%E7%AD%96%E7%95%A5%E5%BC%80%E5%8F%91%E6%B5%B7%E9%BE%9F%E7%AD%96%E7%95%A5/250)
+* [浅谈小市值策略](https://community.bigquant.com/t/%E9%87%8F%E5%8C%96%E5%AD%A6%E5%A0%82-%E7%AD%96%E7%95%A5%E5%BC%80%E5%8F%91%E6%B5%85%E8%B0%88%E5%B0%8F%E5%B8%82%E5%80%BC%E7%AD%96%E7%95%A5/251)
+* [多头排列回踩买入策略](https://community.bigquant.com/t/%E9%87%8F%E5%8C%96%E5%AD%A6%E5%A0%82-%E7%AD%96%E7%95%A5%E5%BC%80%E5%8F%91%E5%A4%9A%E5%A4%B4%E6%8E%92%E5%88%97%E5%9B%9E%E8%B8%A9%E4%B9%B0%E5%85%A5%E7%AD%96%E7%95%A5/253)
+* [借助talib使用技术分析指标来炒股](https://community.bigquant.com/t/%E9%87%8F%E5%8C%96%E5%AD%A6%E5%A0%82-%E7%AD%96%E7%95%A5%E5%BC%80%E5%8F%91%E5%80%9F%E5%8A%A9talib%E4%BD%BF%E7%94%A8%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90%E6%8C%87%E6%A0%87%E6%9D%A5%E7%82%92%E8%82%A1/254)
+* [大师系列之价值投资法](https://community.bigquant.com/t/%E9%87%8F%E5%8C%96%E5%AD%A6%E5%A0%82-%E7%AD%96%E7%95%A5%E5%BC%80%E5%8F%91%E5%A4%A7%E5%B8%88%E7%B3%BB%E5%88%97%E4%B9%8B%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84%E6%B3%95/255)
+* [事件驱动策略（基于业绩快报）](https://community.bigquant.com/t/%E9%87%8F%E5%8C%96%E5%AD%A6%E5%A0%82-%E7%AD%96%E7%95%A5%E5%BC%80%E5%8F%91%E4%BA%8B%E4%BB%B6%E9%A9%B1%E5%8A%A8%E7%AD%96%E7%95%A5%EF%BC%88%E5%9F%BA%E4%BA%8E%E4%B8%9A%E7%BB%A9%E5%BF%AB%E6%8A%A5%EF%BC%89/256)
+* [策略回测结果指标详解](https://community.bigquant.com/t/%E9%87%8F%E5%8C%96%E5%AD%A6%E5%A0%82-%E7%AD%96%E7%95%A5%E5%BC%80%E5%8F%91%E7%AD%96%E7%95%A5%E5%9B%9E%E6%B5%8B%E7%BB%93%E6%9E%9C%E6%8C%87%E6%A0%87%E8%AF%A6%E8%A7%A3/257)
+* [基于协整的配对交易](https://community.bigquant.com/t/%E9%87%8F%E5%8C%96%E5%AD%A6%E5%A0%82-%E7%AD%96%E7%95%A5%E5%BC%80%E5%8F%91%E5%9F%BA%E4%BA%8E%E5%8D%8F%E6%95%B4%E7%9A%84%E9%85%8D%E5%AF%B9%E4%BA%A4%E6%98%93/260)
+* [基本面量化（Quantamental）——财务指标量化策略](https://community.bigquant.com/t/%E5%9F%BA%E6%9C%AC%E9%9D%A2%E9%87%8F%E5%8C%96%EF%BC%88Quantamental%EF%BC%89%E2%80%94%E2%80%94%E8%B4%A2%E5%8A%A1%E6%8C%87%E6%A0%87%E9%87%8F%E5%8C%96%E7%AD%96%E7%95%A5/598)
 
 ## 小市值&低股价策略
 * [小市值股票轮动策略](https://www.joinquant.com/post/316)
@@ -111,4 +172,3 @@ TA-Lib 用中文可以称作技术分析库，是一种广泛用在程序化交�
 ## 技术分享4：量化缠绕
 * [【量化缠论】之分型、笔、线段识别](https://www.joinquant.com/post/425)
 * [【量化缠论】应用之维克多1-2-3法则(回测提速版)](https://www.joinquant.com/post/519)
-
