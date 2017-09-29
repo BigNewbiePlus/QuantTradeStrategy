@@ -20,7 +20,7 @@ QuantTradeStrategy
 2.1: [均线策略](/strategy/均线策略.md)<br>
 2.2:[动量策略](/strategy/动量策略.md)<br>
 2.3:[长区间突破策略](/strategy/长区间突破策略.md)<br>
-2.4:[Aberration策略](/strategy/Aberration策略.md)<br>  [各类策略的简单优劣对比](/comments/各类策略的简单优劣对比.md)<br>
+2.4:[Aberration策略](/strategy/Aberration策略.md)  [各类策略的简单优劣对比](/comments/各类策略的简单优劣对比.md)<br>
 2.5:[Andromeda](/strategy/Andromeda策略.md) <br>
 2.6:[Checkmate](/strategy/Checkmate策略.md)<br>
 2.7:[Golden SX](/strategy/GoldenSX策略.md)<br>
